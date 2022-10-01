@@ -8,7 +8,8 @@
 
 Для початку потрібно у html файл додати посилання на бібліотеки:
 //https://www.jsdelivr.com/package/npm/basiclightbox?path=dist
-//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
-//<script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js" type="module"></script>
+<br>
+//https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css
+//https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
 
 
