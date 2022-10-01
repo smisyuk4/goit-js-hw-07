@@ -61,30 +61,27 @@ let instance = {}
 function zoomImage(event) {
     event.preventDefault();
 
-    instance = basicLightbox.create(`
-        <div class="modal">
-            <img src="${event.target.getAttribute('data-source')}"                       
+    instance = basicLightbox.create(`      
+            <img src="${event.target.getAttribute('data-source')}"
                 alt="${event.target.getAttribute('alt')}"
-            />
-        </div>`,{
+            />`
+        , {
         onClose: (instance) => {
             console.log('like it')
             window.removeEventListener('keydown', onPressEscBtn)
             refs.body.style.overflow = '';
-        }}
+        }}        
     )
 
     instance.show();
 
     refs.body.style.overflow = 'hidden';
 
-    window.addEventListener('keydown', onPressEscBtn)
+    document.addEventListener('keydown', onPressEscBtn)   
 }
-
 
 function onPressEscBtn(event) {
     if (event.code === 'Escape') {
         instance.close()
     }
-    console.log(event.code)
 }
