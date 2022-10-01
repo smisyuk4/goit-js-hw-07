@@ -14,7 +14,7 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
 <br>
 Потім використовувати шаблонну розмітку зображень галереї:
 <br>
-<div class="gallery__item">
+/*<div class="gallery__item">
   <a class="gallery__link" href="large-image.jpg">
     <img
       class="gallery__image"
@@ -23,5 +23,5 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
       alt="Image description"
     />
   </a>
-</div>
+</div>*/
 
