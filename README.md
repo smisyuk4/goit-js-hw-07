@@ -7,8 +7,8 @@
 <a href="https://github.com/electerious/basicLightbox">github.com/basiclightbox</a>`
 
 Для початку потрібно у html файл додати посилання на бібліотеки:
-<p>https://www.jsdelivr.com/package/npm/basiclightbox?path=dist</p>
-<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"></p>
-<p><script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js" type="module"></script></p>
+//https://www.jsdelivr.com/package/npm/basiclightbox?path=dist
+//<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
+//<script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js" type="module"></script>
 
 
