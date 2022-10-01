@@ -14,11 +14,10 @@ https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
 <br>
 Потім використовувати шаблонну розмітку зображень галереї і використовувати обробник події(клік) по зображенню.
 
-в обробнику потрібно створити новий екземпляр
+В обробнику потрібно створити новий екземпляр instance
 
 function zoomImage(event) {
     event.preventDefault();
-
     const instance = basicLightbox.create(`      
             <img src="${event.target.getAttribute('data-source')}"
                 alt="${event.target.getAttribute('alt')}"
