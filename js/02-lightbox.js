@@ -40,5 +40,5 @@ refs.gallery.addEventListener('click', zoomImage)
 function zoomImage(event) {
     event.preventDefault();
 
-    var lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250});
+    const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250});
 }
