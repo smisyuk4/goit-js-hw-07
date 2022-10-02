@@ -37,8 +37,8 @@ refs.gallery.insertAdjacentHTML('afterbegin', markupArr.join(''))
 
 refs.gallery.addEventListener('click', zoomImage)
 
-function zoomImage(event) {
-    event.preventDefault();
+const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250});
 
-    const lightbox = new SimpleLightbox('.gallery a', { captionDelay: 250});
+function zoomImage(event) {
+    event.preventDefault();  
 }
